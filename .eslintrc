@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "max-len": ["error", 120, 4, {
+        "ignoreComments": true,
+        "ignoreUrls": true,
+        "ignorePattern": "^\\s*var\\s.+=\\s*(require\\s*\\()|(/)"
+    }],
+    "no-param-reassign": ["off"],
+    "func-names": ["off"],
+    "consistent-return": ["off"],
+    "no-console": ["error"]
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  }
+}
